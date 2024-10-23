@@ -1,9 +1,9 @@
 ## Tähtajad:
-04.11 - Veebilehe rühmatöö plaan
+- 04.11 - Veebilehe rühmatöö plaan
 
-11.11- Veebilehe vahearuanne
+- 11.11- Veebilehe vahearuanne
 
-2.12-Veebilehe projekt
+- 2.12-Veebilehe projekt
 
 ## Veebileht
 Teema: tennis(Tennise tutvustus)
