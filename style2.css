@@ -1,24 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f1d1cb;
     text-align:justify;
 }
+.ülaosa {
+    background-image: url(https://www.imelineajalugu.ee/wp-content/uploads/2023/12/pre-8.jpg); 
+    background-size:cover;
+    
+    background-position-y: -130px;
+    height: 200px; 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 h1 {
     font-size: 300%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
 }
-a {
+p {
+    font-size:x-large;
+}
+.link1 {
     position: fixed;
     top: 5px; 
-    left: 80%;
-    transform: translateX(-50%);
-    padding: 5px 10px;
-    background-color: #cce761;
+    left: 86%;
+    transform: translateX(-50%); 
+    padding: 15px 20px;
+    background-color: #cce761; 
     color: rgb(52, 49, 49);
     border: none;
     cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
+}
+.link2 {
+    position: fixed;
+    top: 5px; 
+    left: 95%;
+    transform: translateX(-50%); 
+    padding: 15px 20px;
+    background-color: #cce761; 
+    color: rgb(52, 49, 49);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.vasak_äär {
+    width: 60%;
+    float: left;
+
+}
+.parem_äär {
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    img {
+        width: 250px;
+        height: auto;
+    }
+
 }
