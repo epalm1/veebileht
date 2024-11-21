@@ -60,13 +60,27 @@ p {
     float: left;
 
 }
-.parem_äär {
-    right: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    img {
-        width: 250px;
-        height: auto;
-    }
 
+.pilt1 {
+    position: relative;
+    left: 120px;
+    width: 250px;
+    height: auto;
 }
+
+.pilt2 {
+    position: relative;
+    right: 170px;
+    top: 350px;
+    width: 190px;
+    height: auto;
+}
+
+.pilt3 {
+    position: relative;
+    left: 100px;
+    top: 470px;
+    width: 300px;
+    height: auto;
+}
+
