@@ -1,39 +1,4 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f1d1cb;
     text-align:justify;
 }
 
-h1 {
-    font-size: 300%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px rgb(255, 255, 255);   
-}
-
-.link1 {
-    position: fixed;
-    top: 5px; 
-    left: 86%;
-    transform: translateX(-50%); 
-    padding: 15px 20px;
-    background-color: #cce761; 
-    color: rgb(52, 49, 49);
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 50px;
-}
-.link2 {
-    position: fixed;
-    top: 5px; 
-    left: 95%;
-    transform: translateX(-50%); 
-    padding: 15px 20px;
-    background-color: #cce761; 
-    color: rgb(52, 49, 49);
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 50px;
-}

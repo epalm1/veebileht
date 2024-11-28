@@ -1,3 +1,8 @@
+/**
+ * Autor: ChatGPT (OpenAI)
+ * Loodud: 21.11.2024
+ * Kirjeldus: kood loob slideshow
+ */
 const slides = document.querySelectorAll('.slideshow img');
 let currentSlide = 0;
 
