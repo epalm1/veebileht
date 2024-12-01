@@ -6,14 +6,102 @@
 <link rel="stylesheet" href="style3.css">
 </head>   
 <body>
-<h1>Tennisest algajale!</h1>
-<p>Varasema kogemuseta võib tennisega alustamine olla üpris keeruline, sest tegemist on üsna keerulise spordialaga. Siin lehel on võimalik tutvuda vajalike baasteadmistega, nagu tennise reeglid, puntkisüsteem, peamised löögid ja palju muud!</p>
+<div class="ülaosa">
+    <h1>Tennisest algajale!</h1>
+</div>
+<br>
+<div class="tutvustus">
+    <p>Varasema kogemuseta võib tennisega alustamine olla üpris keeruline, sest tegemist on üsna keerulise spordialaga. Siin lehel on võimalik tutvuda vajalike baasteadmistega, nagu tennise reeglid, puntkisüsteem, peamised löögid ja palju muud!</p>
+</div>
 <br>
 <br>
 <h2>Tennise reeglid</h2>
 <br>
-<h3>1. Tenniseplats</h3>
-<img src="tenniseplats.png" alt="tenniseväljak" width="580" height="348">
+
+<button class="accordion">Tenniseplats</button>
+<div class="panel">
+    <div class="text-container">
+        <h3>Mõõtmed</h3>
+        <ul>
+            <li>Üksikmängus 23,77 m pkkune ja 8,23m laiune</li>
+            <li>Paarismängus 23,77m pikkune ja 10,97m laiune</li>
+        </ul>
+            Väljaku jagab pooleks võrk
+        <br>
+        <br>
+        <h3>Väljakutüübid</h3>
+        <p>Tenniseväljakuid on mitut erinevat tüüpi ning need erinevad enamasti väljaku materjali poolest. Kõige levinumad väljakutüübid:</p>
+        <ul>
+            <li>Liivaväljak(Clay court)</li>
+            <li>Vaibaga väljak(Carpeted court)</li>
+            <li>Muruväljak(Grass)</li>
+            <li>Kõva väljak(Hard court)</li>
+        </ul>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="tenniseplats1.jpg" width="617px" height="360px"> 
+            <div class="pildi-kirjeldus">Tenniseplats</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="yksikmang.jpg"  width="617px" height="360px">
+            <div class="pildi-kirjeldus">Üksikmängu väljak</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="paarismang.jpg"  width="617px" height="360px">
+            <div class="pildi-kirjeldus">Paarismängu väljak</div>
+        </div>
+        <a class="next" onclick="plusSlides(1)"> &#129170</a>
+        <a class="last" onclick="plusSlides(-1)">&#129168</a>
+    </div>
+</div>
+
+<button class="accordion">Punktisüsteem</button>
+<div class="panel">
+  <div class="text-container2">
+    <h3>Mängu struktuur</h3>
+    <p>Tennises eristatakse kahte peamist punktide alajaotust: game ja set. Nendes loetakse puntke järgmiselt:</p>
+    <br>
+    <h4>Puntkid geimis:</h4>
+        <br>
+        <p>Geimis loetakse alati servija punktid esimesena. Üks võidetud punkt - mängija skoor: 15, teine võidetud punkt - mängija skoor: 30. Kolmas võidetud punkt - mängija skoor: 40, Neljas võidetud punkt - mängija võidab geimi ning alustatakse järgmisega. Juhul kui mõlemal osapoolel on geimis 40 punkti, nimetatakse seda "mäng tasa" ning geimi võitmiseks peab mängija võitma 2 järjestikkust punkti. Kui servija saab selles seisus punkti, nimetatakse seda "edu sees" ning vastupidisel juhul "edu väljas". Geimi võit annab ühe punkti mängija seti skoori. </p>
+    <br>
+    <h4>Punktid setis:</h4>
+        <br>
+        <p>Sette loetakse geimide võitude järgi ning mängija võidab seti, kui võidab esimesena 6 geimi (peab olema 2-geimi vahe, vastasel juhul mängitakse 7-ni või kiiret lõppmängu). Sette on ühes mängus tavaliselt 3-5 (Meeste võistlustel 5, naistel 3) ning mängu võitmiseks peab võitma rohkem kui vastane.</p>
+  </div>
+  <img src="punktid.jpg" width="690px" height="266px">
+</div>
+
+<button class="accordion">Peamised löögid</button>
+<div class="panel">
+  <div class="text-container3">
+    <h3>1. Eeskäe löök (forehand) ja tagakäe löök (backhand)</h3>
+    <br>
+    <p>Need on kaks kõige elementaarsemat tenniselööki, mille käigus puudutab pall enne selle vastuvõtmist ühe korra maad ning lüüakse paremalt või vasakult poolt alustades tagasi üle võrgu.</p>
+    <a href="https://www.youtube.com/watch?v=IhinAAE37OY" target="_blank">Videoõpetus eeskäe löögist</a>
+    <a href="https://www.youtube.com/watch?v=i1k8MLOsOwI" target="_blank">Videoõpetus tagakäe löögist</a>
+    <h3> 2. Serv</h3>
+    <br>
+    <p>Serv on algajana üsna keeruline löök, kuid see on oluline osa tennisest, sest see alustab punkti. Ühe geimi vältel servib üks mängija ning see vahetub iga geim. Servi lüüakse kõige tagumise joone tagant (sealjuures ei tohi enne löögi tegemist sellest üle astuda!) diagonaalis vastase servikasti. Ühe punkti alustamiseks on kaks võimalust servi lüüa, kui mõlemad ei lähe servikasti, kaotab servija punkti (tegemist on topeltveaga). Esimene punkt lüüakse paremalt poolt servikasti ning iga punkt vaheldub servikast, kuhu lüüakse.</p>
+    <br>
+    <figure> 
+        <figcaption style="text-align: center;">Esimese punkti serv</figcaption>
+        <img src="esimene_serv.jpg" style="width: 49%; height: 49%;">
+    </figure>
+    <figure> 
+        <figcaption style="text-align: center;">Teise punkti serv</figcaption>
+        <img src="teine_serv.jpg" style="width: 49%; height: 49%;">  
+    </figure>
+    </div>
+</div>
+
+<button class="accordion">Vajalikud vahendid</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<script src="script2.js"></script>
 <a href="index.html" class="link1">PEALEHT</a> 
 <a href="vaheleht1.html" class="link2">AJALUGU</a>
 </body>
