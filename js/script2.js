@@ -1,11 +1,10 @@
 /**
  * Autor: w3schools
- * Kuupäev:30.11.2024
  * Kirjeldus: Esimene osa muudab lehekülje alajaotused sektsioonideks, mida saab avada nendele klikkimisega. Teine osa loob slideshow, mida saab veebileheküljel vaadata noolte abil.
  */
 
 
-//Loob accordion elemendi
+//Otsib elemendid, mille class on accordion
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -22,16 +21,16 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-//Määrab slaidide indeksi, millele vastavalt muutub esitletav pilt
+//Määrab slaidi indeksile algväärtuse
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Eelmine/järgmine slaid
+// Eelmise/järgmise slaidi kuvamine
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Millist slaidi esitletakse
+// Funktsioon kindlale slaidile liikumiseks
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -40,7 +39,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
+  if (n > slides.length) {slideIndex = 1}//Kui slaidiindeks ületab slaidie arvu, siis indeks omandab jälle algväärtuse ja liigub tagasi esimesele pildile
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
