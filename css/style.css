@@ -30,7 +30,6 @@
 }
 .slideshow-container {
     position:absolute; /* Paigutab konteineri akna suhtes */
-    bottom: 5px;    /* Kaugus lehe allservast */
     left: 50%;       /* Tsentreerib horisontaalselt */
     transform: translateX(-50%); /* Viib konteineri täpselt keskele */
     z-index: 1000;   /* Tagab, et slaidishow asub kõige peal */
