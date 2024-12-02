@@ -1,6 +1,15 @@
+/**
+ * Autor: w3schools
+ * Kuupäev:30.11.2024
+ * Kirjeldus: Esimene osa muudab lehekülje alajaotused sektsioonideks, mida saab avada nendele klikkimisega. Teine osa loob slideshow, mida saab veebileheküljel vaadata noolte abil.
+ */
+
+
+//Loob accordion elemendi
 var acc = document.getElementsByClassName("accordion");
 var i;
 
+//Sektsiooni pealkirja klikkides avaneb vastav tekstiosa
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -13,33 +22,30 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+//Määrab slaidide indeksi, millele vastavalt muutub esitletav pilt
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Eelmine/järgmine slaid
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Millist slaidi esitletakse
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//Slaidi muutumine
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
 
 
