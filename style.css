@@ -3,9 +3,34 @@
     background-image: url(https://t4.ftcdn.net/jpg/06/13/12/89/360_F_613128929_9QOk7g0kSqpdj4xtlOGY4jC8jIOuPhnK.jpg); 
     background-position: center;
 }
+.link3:link {
+    position: relative;
+    background-color: #a6d216;
+    color: black;
+    outline: auto;
+    font: bold;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.link3:visited {
+    position: relative;
+    background-color: #abd329;
+    outline: auto;
+    color: white;
+    font: bold;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.link3:hover {
+  background-color: #1375c5;
+}
 .slideshow-container {
     position:absolute; /* Paigutab konteineri akna suhtes */
-    bottom: 20px;    /* Kaugus lehe allservast */
+    bottom: 5px;    /* Kaugus lehe allservast */
     left: 50%;       /* Tsentreerib horisontaalselt */
     transform: translateX(-50%); /* Viib konteineri täpselt keskele */
     z-index: 1000;   /* Tagab, et slaidishow asub kõige peal */

@@ -42,6 +42,11 @@ p {
     cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
+    transition: 0.4s;
+}
+
+.link1:hover {
+    background-color: #1375c5;
 }
 .link2 {
     position: absolute;
@@ -55,6 +60,11 @@ p {
     cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
+    transition: 0.4s;
+}
+
+.link2:hover {
+    background-color: #1375c5;
 }
 #keriÜles {
     position: fixed;
