@@ -30,7 +30,6 @@
 }
 .slideshow-container {
     position:absolute; /* Paigutab konteineri akna suhtes */
-    bottom: 5px;    /* Kaugus lehe allservast */
     top: 60%;    /* Kaugus lehe allservast */
     left: 50%;       /* Tsentreerib horisontaalselt */
     transform: translateX(-50%); /* Viib konteineri täpselt keskele */
